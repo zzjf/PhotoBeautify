@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B2A57AF619A2C523006CF143"
+               BuildableName = "PhotoBeautify.app"
+               BlueprintName = "PhotoBeautify"
+               ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B2A57AF619A2C523006CF143"
+            BuildableName = "PhotoBeautify.app"
+            BlueprintName = "PhotoBeautify"
+            ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

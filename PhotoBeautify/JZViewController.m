@@ -46,10 +46,11 @@
 @property (retain, nonatomic) UIButton *toggleEffects;
 @property (retain, nonatomic) UIButton *openCameraRoll;
 @property (retain, nonatomic) UIButton *saveVideo;
+@property (retain, nonatomic) UIButton *more;
 @property (retain, nonatomic) UIButton *titleEffects;
 @property (retain, nonatomic) UIButton *titleCameraRoll;
 @property (retain, nonatomic) UIButton *titleSaveVideo;
-
+@property (retain, nonatomic) UIButton *titleMore;
 @property (retain, nonatomic) UIImageView *imageViewPreview;
 @property (retain, nonatomic) ThemeScrollView *frameScrollView;
 
@@ -632,19 +633,24 @@
 {
     [super viewWillAppear:animated];
     
-    [self.navigationController setNavigationBarHidden:YES];
-    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    [self.navigationController setNavigationBarHidden:NO];
+//    self.navigationController.title = @"创建光影秀";
+    [[UIApplication sharedApplication] setStatusBarHidden:NO];
 }
 
 - (void)initToolbarView
 {
+    CGFloat  width = [UIScreen mainScreen].bounds.size.width;
+    CGFloat height = [UIScreen mainScreen].bounds.size.height;
+    CGFloat height9 = height/9;
+    CGFloat pictureSize = height9*1/3;
     CGFloat orginHeight = self.view.frame.size.width - toolbarHeight;
     if (iOS6 || iOS5)
     {
         orginHeight += 20;
     }
     
-    _viewToolbar = [[UIView alloc] initWithFrame:CGRectMake(self.view.frame.size.height/2 - self.view.frame.size.width/2, orginHeight, self.view.frame.size.width, toolbarHeight)];
+    _viewToolbar = [[UIView alloc] initWithFrame:CGRectMake(0, height*9.0/10, self.view.frame.size.width, height*9.0/10)];
     _viewToolbar.backgroundColor = [UIColor clearColor];
     
     _imageViewToolbarBG = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"toolbar_bkg"]];
@@ -653,52 +659,72 @@
     [_imageViewToolbarBG setUserInteractionEnabled:NO];
 
     UIImage *imageEffectsUp = [UIImage imageNamed:@"drawerOpen_up"];
-    _toggleEffects = [[UIButton alloc] initWithFrame:CGRectMake(10, 0, imageEffectsUp.size.width, 35)];
+    _toggleEffects = [[UIButton alloc] initWithFrame:CGRectMake(width/4/4,height9/6,pictureSize, pictureSize)];
     [_toggleEffects setImage:imageEffectsUp forState:(UIControlStateNormal)];
     [_toggleEffects setImage:[UIImage imageNamed:@"drawerOpen_down"] forState:(UIControlStateSelected)];
     [_toggleEffects addTarget:self action:@selector(handleActionTakeEffects) forControlEvents:UIControlEventTouchUpInside];
     
-    CGRect rectEffects = CGRectMake(_toggleEffects.frame.origin.x, _toggleEffects.frame.origin.y+_toggleEffects.frame.size.height, _toggleEffects.frame.size.width, 15);
-    NSString *textEffects = NSLocalizedString(@"Theme", nil);
+    CGRect rectEffects = CGRectMake(width/4/4, height9/2.5, pictureSize, pictureSize);
+    NSString *textEffects = NSLocalizedString(@"主题", nil);
     _titleEffects = [[UIButton alloc] initWithFrame:rectEffects];
     [_titleEffects setBackgroundColor:[UIColor clearColor]];
     [_titleEffects setTitleColor:lightBlue forState:UIControlStateNormal];
-    _titleEffects.titleLabel.font = [UIFont systemFontOfSize: 14.0];
+    _titleEffects.titleLabel.adjustsFontSizeToFitWidth = YES;
+
     _titleEffects.titleLabel.textAlignment = NSTextAlignmentCenter;
     [_titleEffects setTitle:textEffects forState: UIControlStateNormal];
     [_titleEffects addTarget:self action:@selector(handleActionTakeEffects) forControlEvents:UIControlEventTouchUpInside];
     
     UIImage *imageAlbum = [UIImage imageNamed:@"cameraRoll_up"];
-    _openCameraRoll = [[UIButton alloc] initWithFrame:CGRectMake(_viewToolbar.bounds.size.width/2 - imageAlbum.size.width/2, 0, imageAlbum.size.width, 35)];
+    _openCameraRoll = [[UIButton alloc] initWithFrame: CGRectMake(width/4+width/4/4,height9/6,pictureSize, pictureSize)];
     [_openCameraRoll setImage:imageAlbum forState:(UIControlStateNormal)];
     [_openCameraRoll setImage:[UIImage imageNamed:@"cameraRoll_down"] forState:(UIControlStateSelected)];
     [_openCameraRoll addTarget:self action:@selector(handleActionOpenCameraRoll) forControlEvents:UIControlEventTouchUpInside];
     
-    CGRect rectCameraRoll = CGRectMake(_openCameraRoll.frame.origin.x, _openCameraRoll.frame.origin.y+_openCameraRoll.frame.size.height, _openCameraRoll.frame.size.width, 15);
-    NSString *textCameraRoll = NSLocalizedString(@"Album", nil);
+    CGRect rectCameraRoll = CGRectMake(width/4+width/4/4, height9/2.5, pictureSize/2, pictureSize/1);
+    NSString *textCameraRoll = NSLocalizedString(@" 库 ", nil);
     _titleCameraRoll = [[UIButton alloc] initWithFrame:rectCameraRoll];
     [_titleCameraRoll setBackgroundColor:[UIColor clearColor]];
     [_titleCameraRoll setTitleColor:lightBlue forState:UIControlStateNormal];
     _titleCameraRoll.titleLabel.font = [UIFont systemFontOfSize: 14.0];
+    //_titleCameraRoll.titleLabel.adjustsFontSizeToFitWidth = YES;
     _titleCameraRoll.titleLabel.textAlignment = NSTextAlignmentCenter;
     [_titleCameraRoll setTitle:textCameraRoll forState: UIControlStateNormal];
     [_titleCameraRoll addTarget:self action:@selector(handleActionOpenCameraRoll) forControlEvents:UIControlEventTouchUpInside];
-    
+
+    //三
     UIImage *imageCameraRollUp = [UIImage imageNamed:@"saveCameraRoll_up"];
-    _saveVideo = [[UIButton alloc] initWithFrame:CGRectMake(_viewToolbar.bounds.size.width - imageCameraRollUp.size.width - 10, 0, imageCameraRollUp.size.width, 35)];
+    _saveVideo = [[UIButton alloc] initWithFrame:CGRectMake(width/4*2+width/4/4, height9/6, pictureSize, pictureSize)];
     [_saveVideo setImage:imageCameraRollUp forState:(UIControlStateNormal)];
     [_saveVideo setImage:[UIImage imageNamed:@"saveCameraRoll_down"] forState:(UIControlStateSelected)];
     [_saveVideo addTarget:self action:@selector(handleActionSavetoAlbums) forControlEvents:UIControlEventTouchUpInside];
-    
-    CGRect rectSave = CGRectMake(_saveVideo.frame.origin.x, _saveVideo.frame.origin.y+_saveVideo.frame.size.height, _saveVideo.frame.size.width, 15);
-    NSString *textSave = NSLocalizedString(@"Save", nil);
+    CGRect rectSave = CGRectMake(width/4*2+width/4/4, height9/2.5, pictureSize, pictureSize);
+    NSString *textSave = NSLocalizedString(@"zzjf", nil);
     _titleSaveVideo = [[UIButton alloc] initWithFrame:rectSave];
     [_titleSaveVideo setBackgroundColor:[UIColor clearColor]];
     [_titleSaveVideo setTitleColor:lightBlue forState:UIControlStateNormal];
-    _titleSaveVideo.titleLabel.font = [UIFont systemFontOfSize: 14.0];
+    //_titleSaveVideo.titleLabel.font = [UIFont systemFontOfSize: 14.0];
+    _titleSaveVideo.titleLabel.adjustsFontSizeToFitWidth = YES;
     _titleSaveVideo.titleLabel.textAlignment = NSTextAlignmentCenter;
     [_titleSaveVideo setTitle:textSave forState: UIControlStateNormal];
     [_titleSaveVideo addTarget:self action:@selector(handleActionSavetoAlbums) forControlEvents:UIControlEventTouchUpInside];
+
+    //4
+    UIImage *imageMore = [UIImage imageNamed:@"saveCameraRoll_up"];
+    _more = [[UIButton alloc] initWithFrame:CGRectMake(width/4*3+width/4/4, height9/6, pictureSize, pictureSize)];
+    [_more setImage:imageMore forState:(UIControlStateNormal)];
+    [_more setImage:[UIImage imageNamed:@"saveCameraRoll_down"] forState:(UIControlStateSelected)];
+    [_more addTarget:self action:@selector(handleActionSavetoAlbums) forControlEvents:UIControlEventTouchUpInside];
+    CGRect rectMore = CGRectMake(width/4*3+width/4/4, height9/2.5, pictureSize, pictureSize);
+    NSString *textMore = NSLocalizedString(@"跟多", nil);
+    _titleMore = [[UIButton alloc] initWithFrame:rectMore];
+    [_titleMore setBackgroundColor:[UIColor clearColor]];
+    [_titleMore setTitleColor:lightBlue forState:UIControlStateNormal];
+    //_titleMore.titleLabel.font = [UIFont systemFontOfSize: 14.0];
+    _titleMore.titleLabel.adjustsFontSizeToFitWidth = YES;
+    _titleMore.titleLabel.textAlignment = NSTextAlignmentCenter;
+    [_titleMore setTitle:textSave forState: UIControlStateNormal];
+    [_titleMore addTarget:self action:@selector(handleActionSavetoAlbums) forControlEvents:UIControlEventTouchUpInside];
     
     [_viewToolbar addSubview:_imageViewToolbarBG];
     [_viewToolbar addSubview:_toggleEffects];
@@ -707,6 +733,8 @@
     [_viewToolbar addSubview:_titleSaveVideo];
     [_viewToolbar addSubview:_openCameraRoll];
     [_viewToolbar addSubview:_titleCameraRoll];
+    [_viewToolbar addSubview:_more];
+    [_viewToolbar addSubview:_titleMore];
     [self.view addSubview:_viewToolbar];
 }
 
@@ -818,6 +846,12 @@
 
 - (void)viewDidLoad
 {
+    self.title = @"创建光影秀";
+    UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.leftBarButtonItem = barButtonItem;
+
+    UIBarButtonItem *CompletedBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStylePlain target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = CompletedBarButtonItem;
     [super viewDidLoad];
     
     [self initPreviewView];

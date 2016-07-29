@@ -178,6 +178,8 @@
 		B2DA989919A737E4001E5EAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DA989619A737E4001E5EAF /* Default.png */; };
 		B2DA989A19A737E4001E5EAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DA989719A737E4001E5EAF /* Default@2x.png */; };
 		B2DA989C19A73A08001E5EAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DA989B19A73A08001E5EAF /* Default-568h@2x.png */; };
+		EFA5D72D594240044D213051 /* JFAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D50F36BF65C578FA433D /* JFAlbumsViewController.m */; };
+		EFA5D8070729A84D2F5484B8 /* JFEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA5D8B4EC5FE55E280AACA1 /* JFEffectsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -397,6 +399,10 @@
 		B2DA989619A737E4001E5EAF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B2DA989719A737E4001E5EAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B2DA989B19A73A08001E5EAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EFA5D50F36BF65C578FA433D /* JFAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFAlbumsViewController.m; sourceTree = "<group>"; };
+		EFA5D75AD968FA057F28CF91 /* JFEffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFEffectsViewController.h; sourceTree = "<group>"; };
+		EFA5D8B4EC5FE55E280AACA1 /* JFEffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFEffectsViewController.m; sourceTree = "<group>"; };
+		EFA5D9481F020DECAE8A6DB6 /* JFAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAlbumsViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -704,6 +710,10 @@
 				B2A57B1019A2C523006CF143 /* JZViewController.m */,
 				B2A57B1219A2C523006CF143 /* Images.xcassets */,
 				B2A57B0119A2C523006CF143 /* Supporting Files */,
+				EFA5D8B4EC5FE55E280AACA1 /* JFEffectsViewController.m */,
+				EFA5D75AD968FA057F28CF91 /* JFEffectsViewController.h */,
+				EFA5D50F36BF65C578FA433D /* JFAlbumsViewController.m */,
+				EFA5D9481F020DECAE8A6DB6 /* JFAlbumsViewController.h */,
 			);
 			path = PhotoBeautify;
 			sourceTree = "<group>";
@@ -1053,6 +1063,8 @@
 				B21EFF5119A6D0A1000F173C /* MMProgressHUDOverlayView.m in Sources */,
 				B2AED8F719A8971F00E9AC9F /* UIImage+Help.m in Sources */,
 				B21EFF4E19A6D0A1000F173C /* MMProgressHUD+Animations.m in Sources */,
+				EFA5D8070729A84D2F5484B8 /* JFEffectsViewController.m in Sources */,
+				EFA5D72D594240044D213051 /* JFAlbumsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

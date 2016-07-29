@@ -7,6 +7,8 @@
 //
 
 #import "JZAppDelegate.h"
+#import "JFEffectsViewController.h"
+#import "JFAlbumsViewController.h"
 
 @implementation JZAppDelegate
 
@@ -29,7 +31,6 @@
     self.window.rootViewController = self.navigationController;
     [self.window addSubview:self.navigationController.view];
     [self.window makeKeyAndVisible];
-
     return YES;
 }
 
