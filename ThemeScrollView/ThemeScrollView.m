@@ -230,7 +230,7 @@
 {
     CGRect  bound = self.bounds;
     CGFloat scrollViewHeight = bound.size.height;
-    
+    CGFloat width = [UIScreen mainScreen].bounds.size.width;
     if (_themeScrollView ==  nil)
     {
         _themeScrollView = [[UIScrollView alloc] initWithFrame:bound];
@@ -267,7 +267,7 @@
         }
         
         // 加载主题视图
-        ThemeImageView *themeView = [[ThemeImageView alloc] initWithFrame:CGRectMake(0, 0, 52, 72)];
+        ThemeImageView *themeView = [[ThemeImageView alloc] initWithFrame:CGRectMake(0, 0, width/4, width/4)];
         themeView.themeName = text;
         themeView.thumbImageName = thumbImage;
         themeView.tag = THEME_TAG_BASE + index;

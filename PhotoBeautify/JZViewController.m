@@ -681,13 +681,13 @@
     [_openCameraRoll setImage:[UIImage imageNamed:@"cameraRoll_down"] forState:(UIControlStateSelected)];
     [_openCameraRoll addTarget:self action:@selector(handleActionOpenCameraRoll) forControlEvents:UIControlEventTouchUpInside];
     
-    CGRect rectCameraRoll = CGRectMake(width/4+width/4/4, height9/2.5, pictureSize/2, pictureSize/1);
+    CGRect rectCameraRoll = CGRectMake(width/4+width/4/4, height9/2.5, pictureSize, pictureSize);
     NSString *textCameraRoll = NSLocalizedString(@" 库 ", nil);
     _titleCameraRoll = [[UIButton alloc] initWithFrame:rectCameraRoll];
     [_titleCameraRoll setBackgroundColor:[UIColor clearColor]];
     [_titleCameraRoll setTitleColor:lightBlue forState:UIControlStateNormal];
-    _titleCameraRoll.titleLabel.font = [UIFont systemFontOfSize: 14.0];
-    //_titleCameraRoll.titleLabel.adjustsFontSizeToFitWidth = YES;
+    //_titleCameraRoll.titleLabel.font = [UIFont systemFontOfSize: 14.0];
+    _titleCameraRoll.titleLabel.adjustsFontSizeToFitWidth = YES;
     _titleCameraRoll.titleLabel.textAlignment = NSTextAlignmentCenter;
     [_titleCameraRoll setTitle:textCameraRoll forState: UIControlStateNormal];
     [_titleCameraRoll addTarget:self action:@selector(handleActionOpenCameraRoll) forControlEvents:UIControlEventTouchUpInside];
@@ -762,6 +762,8 @@
 
 - (void) initThemeScrollView
 {
+    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+    CGFloat screenWidht = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = 100;
     _frameScrollView = [[ThemeScrollView alloc] initWithFrame:CGRectMake(_viewToolbar.frame.origin.x, _viewToolbar.frame.origin.y - height, _viewToolbar.frame.size.width, height)];
     _frameScrollView.backgroundColor = [UIColor clearColor];
