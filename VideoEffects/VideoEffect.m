@@ -403,7 +403,8 @@
                 case kAnimationFlower:
                 {
                     NSTimeInterval timeInterval = 0.1;
-                    animatedLayer = [_videoBuilder buildEmitterFlower:assetVideoTrack.naturalSize startTime:timeInterval];
+                    animatedLayer = [_videoBuilder buildEmitterFlower:assetVideoTrack.naturalSize startTime:
+                            timeInterval];
                     if (animatedLayer)
                     {
                         [animatedLayers addObject:(id)animatedLayer];
@@ -459,7 +460,7 @@
                     if (!isStringEmpty(themeCurrent.imageFile))
                     {
                         UIImage *image = [UIImage imageNamed:themeCurrent.imageFile];
-                        animatedLayer = [_videoBuilder buildImage:assetVideoTrack.naturalSize image:themeCurrent.imageFile position:CGPointMake(assetVideoTrack.naturalSize.width/2, image.size.height/2)];
+                        animatedLayer = [_videoBuilder buildImage:assetVideoTrack.naturalSize  image:themeCurrent.imageFile position:CGPointMake(assetVideoTrack.naturalSize.width/2, image.size.height/2)];
                         
                         if (animatedLayer)
                         {
@@ -705,7 +706,7 @@
                 case kAnimationPhotoExplodeDrop:
                 {
                     NSTimeInterval startTime = 0.1;
-                    animatedLayer = [_videoBuilder buildAnimatedPhotoExplodeDrop:assetVideoTrack.naturalSize photos:photos startTime:startTime];
+                    animatedLayer = [_videoBuilder buildAnimatedPhotoExplodeDrop:assetVideoTrack.naturalSize  photos:photos startTime:startTime];
                     if (animatedLayer)
                     {
                         [animatedLayers addObject:(id)animatedLayer];

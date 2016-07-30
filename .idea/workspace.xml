@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2000bad0-7bb9-4829-8e0c-9a44ea36816c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/project.xcworkspace/xcuserdata/kevinjfliu.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/project.xcworkspace/xcuserdata/kevinjfliu.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PhotoBeautify.iml" afterPath="$PROJECT_DIR$/.idea/PhotoBeautify.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" afterPath="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" afterPath="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoEffects/VideoEffect.m" afterPath="$PROJECT_DIR$/VideoEffects/VideoEffect.m" />
     </list>
     <ignored path="PhotoBeautify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +27,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JZViewController.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m">
+      <file leaf-file-name="VideoEffect.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VideoEffects/VideoEffect.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="767" column="114" selection-start-line="767" selection-start-column="102" selection-end-line="767" selection-end-column="114" />
+            <state relative-caret-position="14953">
+              <caret line="967" column="0" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
               <folding>
-                <element signature="e#28167#28203#0" expanded="true" />
+                <element signature="e#0#2#0" expanded="false" />
+                <element signature="e#1081#1521#0" expanded="false" />
+                <element signature="e#1523#1781#0" expanded="false" />
+                <element signature="e#1783#1851#0" expanded="false" />
+                <element signature="e#1853#1961#0" expanded="false" />
+                <element signature="e#1963#2003#0" expanded="false" />
+                <element signature="e#3512#3855#0" expanded="false" />
+                <element signature="e#4521#4672#0" expanded="false" />
+                <element signature="e#35942#36338#0" expanded="false" />
+                <element signature="e#36500#38728#0" expanded="false" />
+                <element signature="e#36688#37350#0" expanded="false" />
+                <element signature="e#37530#38052#0" expanded="false" />
+                <element signature="e#38755#39159#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,8 +60,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PhotoBeautify/JZAppDelegate.m" />
-        <option value="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" />
         <option value="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" />
+        <option value="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" />
+        <option value="$PROJECT_DIR$/VideoEffects/VideoEffect.m" />
       </list>
     </option>
   </component>
@@ -59,9 +74,9 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="811" />
-    <option name="y" value="305" />
-    <option name="width" value="1466" />
+    <option name="x" value="638" />
+    <option name="y" value="302" />
+    <option name="width" value="1391" />
     <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -89,15 +104,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.22660479" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="PhotoBeautify" />
   </component>
   <component name="RunManager" selected="Application.PhotoBeautify">
@@ -167,14 +182,15 @@
       <workItem from="1469784122387" duration="1497000" />
       <workItem from="1469786172202" duration="5576000" />
       <workItem from="1469843627448" duration="2403000" />
+      <workItem from="1469876183506" duration="6211000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9476000" />
+    <option name="totallyTimeSpent" value="15687000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="811" y="305" width="1466" height="1055" extended-state="0" />
+    <frame x="638" y="302" width="1391" height="1055" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -185,7 +201,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2552135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24965894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -238,8 +254,16 @@
           <line>41</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
+          <line>752</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="AppleRunConfiguration">
@@ -253,70 +277,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/cameraRoll_up.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/toolbar_bkg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/drawerOpen_down.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="appcode.project-settings://499428b2">
-      <provider selected="true" editor-type-id="AppCode.ProjectSettings">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/drawerOpen_down.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/cameraRoll_down.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/JFEffectsViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/JFEffectsViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/JFAlbumsViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/JFAlbumsViewController.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/AnimateTabbar.h" />
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/AnimateTabbar.m" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/toolBar_shade.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_3.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_1_on.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_0_on.png" />
     <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_back.png" />
     <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_2_on.png" />
     <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_1.png" />
@@ -357,19 +317,6 @@
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhotoBeautify/JZAppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/toolbar_bkg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resource/Toolbar/drawerOpen_up.png">
@@ -466,47 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
-          <folding>
-            <marker date="1469783365000" expanded="true" signature="0:1202" ph="//..." />
-            <marker date="1469783365000" expanded="true" signature="1204:1224" ph="/.../" />
-            <marker date="1469783365000" expanded="true" signature="1227:3159" ph="/**...*/" />
-            <marker date="1469783365000" expanded="true" signature="3199:3269" ph="{...}" />
-            <marker date="1469783365000" expanded="true" signature="3300:3360" ph="{...}" />
-            <marker date="1469783365000" expanded="true" signature="3448:5790" ph="..." />
-            <marker date="1469783365000" expanded="true" signature="5827:5904" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding>
-            <marker date="1469783366000" expanded="true" signature="0:142" ph="//..." />
-            <marker date="1469783366000" expanded="false" signature="152:222" ph="..." />
-            <marker date="1469783366000" expanded="true" signature="282:537" ph="..." />
-            <marker date="1469783366000" expanded="true" signature="304:355" ph="/**...*/" />
-            <marker date="1469783366000" expanded="true" signature="396:434" ph="/**...*/" />
-            <marker date="1469783366000" expanded="true" signature="604:1308" ph="..." />
-            <marker date="1469783366000" expanded="true" signature="1116:1143" ph="/**...*/" />
-            <marker date="1469783366000" expanded="true" signature="1194:1260" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VideoEffects/VideoThemesData.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="62" column="4" selection-start-line="62" selection-start-column="4" selection-end-line="62" selection-end-column="4" />
-          <folding>
-            <marker date="1469783366000" expanded="true" signature="0:149" ph="//..." />
-            <marker date="1469783366000" expanded="false" signature="159:208" ph="..." />
-            <marker date="1469783366000" expanded="true" signature="234:1258" ph="{...}" />
-            <marker date="1469783366000" expanded="true" signature="1304:1646" ph="{...}" />
-            <marker date="1469783366000" expanded="true" signature="1697:1787" ph="..." />
-            <marker date="1469783366000" expanded="true" signature="1698:1706" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,10 +491,38 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PhotoBeautify/JZAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <marker date="1469787654000" expanded="true" signature="0:147" ph="//..." />
+            <marker date="1469787654000" expanded="false" signature="157:245" ph="..." />
+            <marker date="1469787654000" expanded="true" signature="276:3056" ph="..." />
+            <marker date="1469787654000" expanded="true" signature="387:1263" ph="{...}" />
+            <marker date="1469787654000" expanded="true" signature="1512:1949" ph="{...}" />
+            <marker date="1469787654000" expanded="true" signature="2018:2375" ph="{...}" />
+            <marker date="1469787654000" expanded="true" signature="2445:2602" ph="{...}" />
+            <marker date="1469787654000" expanded="true" signature="2668:2862" ph="{...}" />
+            <marker date="1469787654000" expanded="true" signature="2926:3054" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/Images/Background@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/toolbar_bkg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="269" column="107" selection-start-line="269" selection-start-column="107" selection-end-line="269" selection-end-column="107" />
+        <state relative-caret-position="225">
+          <caret line="218" column="27" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
           <folding>
             <marker date="1469845345000" expanded="true" signature="0:142" ph="//..." />
             <marker date="1469845345000" expanded="true" signature="297:817" ph="..." />
@@ -620,12 +554,359 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ImagePicker/UzysAssetsPickerController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="421" column="109" selection-start-line="421" selection-start-column="109" selection-end-line="421" selection-end-column="109" />
+          <folding>
+            <marker date="1469783365000" expanded="true" signature="0:164" ph="//..." />
+            <marker date="1469783365000" expanded="false" signature="173:348" ph="..." />
+            <marker date="1469783365000" expanded="true" signature="505:1838" ph="..." />
+            <marker date="1469783365000" expanded="true" signature="1886:38082" ph="..." />
+            <marker date="1469783365000" expanded="true" signature="1962:2197" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="2068:2173" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="2211:2491" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="2508:2707" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="2740:2835" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="2856:3423" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3106:3278" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="3460:3626" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3648:3934" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3959:4885" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="4910:7037" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="7058:7726" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="7756:8435" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="7918:8006" ph="^(NSInteger row){...}" />
+            <marker date="1469783365000" expanded="true" signature="8471:10150" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="10180:11195" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="11288:11768" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="11838:12166" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="12234:12633" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="12707:15274" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="13164:14497" ph="^(ALAssetsGroup *group, BOOL *stop){...}" />
+            <marker date="1469783365000" expanded="true" signature="13982:14479" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="14553:15074" ph="^(NSError *error){...}" />
+            <marker date="1469783365000" expanded="true" signature="15320:16586" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="15795:16487" ph="^(ALAsset *asset, NSUInteger index, BOOL *stop){...}" />
+            <marker date="1469783365000" expanded="true" signature="16331:16468" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="16606:16871" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="16939:17068" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="17094:19233" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="19264:22219" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="19339:20047" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="20076:20748" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="22347:22364" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="22471:22504" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="22630:22920" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="23074:23521" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="23631:23725" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="23837:23931" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="23986:24654" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="24619:24644" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="24747:25210" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="25294:25767" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="25468:25745" ph="^(id obj, NSUInteger idx, BOOL *stop){...}" />
+            <marker date="1469783365000" expanded="true" signature="25858:32171" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="26039:32167" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="28448:28699" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="29357:30543" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="30583:30666" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="30803:30886" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="31251:32102" ph="^(ALAsset *asset){...}" />
+            <marker date="1469783365000" expanded="true" signature="31329:32069" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="32231:33008" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="33033:33383" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="33083:33342" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="33354:33378" ph="^(BOOL finished){...}" />
+            <marker date="1469783365000" expanded="true" signature="33447:35411" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="34380:34715" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="35065:35098" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="35470:35776" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="35932:37407" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="36679:36784" ph="^(NSURL *assetURL, NSError *error){...}" />
+            <marker date="1469783365000" expanded="true" signature="37272:37323" ph="^(NSURL *assetURL, NSError *error){...}" />
+            <marker date="1469783365000" expanded="true" signature="37482:37562" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="37541:37558" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="37650:37689" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="37751:37770" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="37803:37821" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="37867:37917" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="37990:38036" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="38062:38080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding>
+            <marker date="1469783366000" expanded="true" signature="0:142" ph="//..." />
+            <marker date="1469783366000" expanded="false" signature="152:222" ph="..." />
+            <marker date="1469783366000" expanded="true" signature="282:537" ph="..." />
+            <marker date="1469783366000" expanded="true" signature="304:355" ph="/**...*/" />
+            <marker date="1469783366000" expanded="true" signature="396:434" ph="/**...*/" />
+            <marker date="1469783366000" expanded="true" signature="604:1308" ph="..." />
+            <marker date="1469783366000" expanded="true" signature="1116:1143" ph="/**...*/" />
+            <marker date="1469783366000" expanded="true" signature="1194:1260" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/dispatch/time.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <marker date="1455917842000" expanded="true" signature="0:705" ph="/.../" />
+            <marker date="1455917842000" expanded="false" signature="790:911" ph="..." />
+            <marker date="1455917842000" expanded="true" signature="1389:1609" ph="/**...*/" />
+            <marker date="1455917842000" expanded="true" signature="1717:2192" ph="/**...*/" />
+            <marker date="1455917842000" expanded="true" signature="2366:2772" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="767" column="114" selection-start-line="767" selection-start-column="102" selection-end-line="767" selection-end-column="114" />
+        <state relative-caret-position="377">
+          <caret line="351" column="29" selection-start-line="351" selection-start-column="29" selection-end-line="351" selection-end-column="29" />
           <folding>
-            <element signature="e#28167#28203#0" expanded="true" />
+            <marker date="1469879376000" expanded="true" signature="0:150" ph="//..." />
+            <marker date="1469879376000" expanded="false" signature="160:462" ph="..." />
+            <marker date="1469879376000" expanded="true" signature="611:1871" ph="..." />
+            <marker date="1469879376000" expanded="true" signature="612:939" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="1909:31965" ph="..." />
+            <marker date="1469879376000" expanded="false" signature="1923:2108" ph="..." />
+            <marker date="1469879376000" expanded="true" signature="2201:2804" ph="{...}" />
+            <marker date="1469879376000" expanded="false" signature="2226:2259" ph="@&quot;Failed&quot;" />
+            <marker date="1469879376000" expanded="true" signature="2864:3071" ph="{...}" />
+            <marker date="1469879376000" expanded="false" signature="2970:3004" ph="@&quot;Success&quot;" />
+            <marker date="1469879376000" expanded="true" signature="3131:3681" ph="{...}" />
+            <marker date="1469879376000" expanded="false" signature="3157:3191" ph="@&quot;Success&quot;" />
+            <marker date="1469879376000" expanded="false" signature="3221:3258" ph="@&quot;Saved to the camera roll!&quot;" />
+            <marker date="1469879376000" expanded="false" signature="3279:3308" ph="@&quot;ok&quot;" />
+            <marker date="1469879376000" expanded="true" signature="3738:4283" ph="{...}" />
+            <marker date="1469879376000" expanded="false" signature="3763:3796" ph="@&quot;Failed&quot;" />
+            <marker date="1469879376000" expanded="false" signature="3825:3861" ph="@&quot;Save to album failed!&quot;" />
+            <marker date="1469879376000" expanded="false" signature="3882:3911" ph="@&quot;ok&quot;" />
+            <marker date="1469879376000" expanded="true" signature="4361:4624" ph="{...}" />
+            <marker date="1469879376000" expanded="false" signature="4458:4491" ph="@&quot;Effect&quot;" />
+            <marker date="1469879376000" expanded="true" signature="4690:4928" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="4969:5014" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="5090:5146" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="5205:5253" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="5301:5351" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="5867:6740" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="5991:6636" ph="^(ALAssetsGroup *group, BOOL *stop){...}" />
+            <marker date="1469879376000" expanded="true" signature="6386:6490" ph="^(ALAssetsGroup *agroup){...}" />
+            <marker date="1469879376000" expanded="true" signature="6504:6616" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="6650:6736" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="7161:8496" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="7310:7441" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="7462:7886" ph="^(ALAssetsGroup *group){...}" />
+            <marker date="1469879376000" expanded="true" signature="7550:7697" ph="^(ALAsset *asset){...}" />
+            <marker date="1469879376000" expanded="true" signature="7711:7877" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="7908:8342" ph="^(ALAssetsGroup *group){...}" />
+            <marker date="1469879376000" expanded="true" signature="8006:8153" ph="^(ALAsset *asset){...}" />
+            <marker date="1469879376000" expanded="true" signature="8167:8333" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="8361:8492" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="8563:9999" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="8882:9815" ph="^(NSURL *assetURL, NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="9420:9638" ph="^(ALAssetsGroup *targetGroup, NSURL *currentAssetUrl, ALAsset *currentAsset){...}" />
+            <marker date="1469879376000" expanded="true" signature="9654:9787" ph="^(NSError *error){...}" />
+            <marker date="1469879376000" expanded="true" signature="10042:10477" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="10519:10903" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="10936:11103" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="11156:11502" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="11526:11843" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="11876:11904" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="11931:12260" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="12208:12256" ph="^{...}" />
+            <marker date="1469879376000" expanded="true" signature="12433:13063" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="13170:13549" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="13632:13682" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="13797:13872" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="13956:13959" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="14051:14437" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="14165:14207" ph="^{...}" />
+            <marker date="1469879376000" expanded="true" signature="14219:14433" ph="^(BOOL finished){...}" />
+            <marker date="1469879376000" expanded="true" signature="14513:14820" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="14597:14639" ph="^{...}" />
+            <marker date="1469879376000" expanded="true" signature="14651:14816" ph="^(BOOL finished){...}" />
+            <marker date="1469879376000" expanded="true" signature="14886:15035" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="15072:15195" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="15231:15451" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="15492:15688" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="15798:15805" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="15950:16990" ph="{...}" />
+            <marker date="1469879376000" expanded="false" signature="16402:16439" ph="@&quot;Processing&quot;" />
+            <marker date="1469879376000" expanded="true" signature="16912:16986" ph="^(void){...}" />
+            <marker date="1469879376000" expanded="true" signature="17098:17567" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="17639:17882" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="17943:18022" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="18036:18718" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="18758:18975" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="19001:25211" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="25240:26447" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="26478:27143" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="27169:27981" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="28003:29704" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="28889:28925" ph="@&quot;Click to start&quot;" />
+            <marker date="1469879376000" expanded="true" signature="29744:30045" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="30067:30813" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="30837:31345" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="31364:31395" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="31429:31524" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="31619:31697" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="31723:31741" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="31787:31838" ph="{...}" />
+            <marker date="1469879376000" expanded="true" signature="31911:31963" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoEffects/VideoEffect.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <marker date="1469783366000" expanded="true" signature="0:143" ph="//..." />
+            <marker date="1469783366000" expanded="true" signature="207:524" ph="..." />
+            <marker date="1469783366000" expanded="true" signature="208:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CMBase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding>
+            <marker date="1456894224000" expanded="true" signature="0:109" ph="/.../" />
+            <marker date="1456894224000" expanded="true" signature="155:235" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="468:546" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="624:702" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="778:855" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="932:1011" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1087:1164" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1223:1294" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1371:1450" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1526:1603" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1662:1733" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1809:1888" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="1965:2044" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="2122:2200" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="2277:2356" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="2433:2512" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="2589:2668" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="2753:2834" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="3047:3128" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="3146:3289" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="3310:3322" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="3477:3663" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="3715:3772" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="4249:4298" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="4341:4382" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="4547:4669" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="4850:4888" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="4941:5078" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="5192:5243" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="5383:5410" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="5473:5530" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="5641:5706" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="5880:5884" ph="..." />
+            <marker date="1456894224000" expanded="false" signature="5892:5929" ph="{...}" />
+            <marker date="1456894224000" expanded="true" signature="6105:6298" ph="..." />
+            <marker date="1456894224000" expanded="true" signature="6357:6358" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoEffects/VideoThemesData.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding>
+            <marker date="1469783366000" expanded="true" signature="0:149" ph="//..." />
+            <marker date="1469783366000" expanded="false" signature="159:208" ph="..." />
+            <marker date="1469783366000" expanded="true" signature="234:1258" ph="{...}" />
+            <marker date="1469783366000" expanded="true" signature="1304:1646" ph="{...}" />
+            <marker date="1469783366000" expanded="true" signature="1697:1787" ph="..." />
+            <marker date="1469783366000" expanded="true" signature="1698:1706" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/Toolbar/btn_camera_down.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeScience.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeStarshine.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeOriginal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeLeaf.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeFruit.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeFlare.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeCloud.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/ThemesThumb/themeCartoon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/SpriteEffect/bgStar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoEffects/VideoEffect.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14953">
+          <caret line="967" column="0" selection-start-line="967" selection-start-column="0" selection-end-line="967" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2#0" expanded="false" />
+            <element signature="e#1081#1521#0" expanded="false" />
+            <element signature="e#1523#1781#0" expanded="false" />
+            <element signature="e#1783#1851#0" expanded="false" />
+            <element signature="e#1853#1961#0" expanded="false" />
+            <element signature="e#1963#2003#0" expanded="false" />
+            <element signature="e#3512#3855#0" expanded="false" />
+            <element signature="e#4521#4672#0" expanded="false" />
+            <element signature="e#35942#36338#0" expanded="false" />
+            <element signature="e#36500#38728#0" expanded="false" />
+            <element signature="e#36688#37350#0" expanded="false" />
+            <element signature="e#37530#38052#0" expanded="false" />
+            <element signature="e#38755#39159#0" expanded="false" />
           </folding>
         </state>
       </provider>

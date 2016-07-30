@@ -450,7 +450,7 @@
          // Hide themes
          if (!self.frameScrollView.hidden)
          {
-             self.frameScrollView.hidden = YES;
+             //self.frameScrollView.hidden = YES;
          }
      }];
 }
@@ -555,7 +555,7 @@
         [_videoPlayerController pause];
     }
     
-    self.frameScrollView.hidden = YES;
+    //self.frameScrollView.hidden = YES;
     
     // Build video effect
     double delayInSeconds = 0.5;
@@ -651,7 +651,7 @@
     }
     
     _viewToolbar = [[UIView alloc] initWithFrame:CGRectMake(0, height*9.0/10, self.view.frame.size.width, height*9.0/10)];
-    _viewToolbar.backgroundColor = [UIColor clearColor];
+    _viewToolbar.backgroundColor = [UIColor whiteColor];
     
     _imageViewToolbarBG = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"toolbar_bkg"]];
     _imageViewToolbarBG.frame = CGRectMake(0, 0, _viewToolbar.frame.size.width, _viewToolbar.frame.size.height);
@@ -667,7 +667,7 @@
     CGRect rectEffects = CGRectMake(width/4/4, height9/2.5, pictureSize, pictureSize);
     NSString *textEffects = NSLocalizedString(@"主题", nil);
     _titleEffects = [[UIButton alloc] initWithFrame:rectEffects];
-    [_titleEffects setBackgroundColor:[UIColor clearColor]];
+//    [_titleEffects setBackgroundColor:[UIColor clearColor]];
     [_titleEffects setTitleColor:lightBlue forState:UIControlStateNormal];
     _titleEffects.titleLabel.adjustsFontSizeToFitWidth = YES;
 
@@ -684,7 +684,7 @@
     CGRect rectCameraRoll = CGRectMake(width/4+width/4/4, height9/2.5, pictureSize, pictureSize);
     NSString *textCameraRoll = NSLocalizedString(@" 库 ", nil);
     _titleCameraRoll = [[UIButton alloc] initWithFrame:rectCameraRoll];
-    [_titleCameraRoll setBackgroundColor:[UIColor clearColor]];
+//    [_titleCameraRoll setBackgroundColor:[UIColor clearColor]];
     [_titleCameraRoll setTitleColor:lightBlue forState:UIControlStateNormal];
     //_titleCameraRoll.titleLabel.font = [UIFont systemFontOfSize: 14.0];
     _titleCameraRoll.titleLabel.adjustsFontSizeToFitWidth = YES;
@@ -740,7 +740,8 @@
 
 - (void) initVideoPlayView
 {
-    CGFloat orginHeight = self.view.frame.size.width;
+    CGFloat orginHeight = self.view.frame.size.height;
+    CGFloat originWidth = self.view.frame.size.width;
     if (iOS6 || iOS5)
     {
         orginHeight += 20;
@@ -748,7 +749,9 @@
     
     _videoPlayerController = [[PBJVideoPlayerController alloc] init];
     _videoPlayerController.delegate = self;
-    _videoPlayerController.view.frame = CGRectMake(0, 0, self.view.frame.size.height, orginHeight);
+    CGFloat statusHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+    CGFloat navigationHeight = self.navigationController.navigationBar.frame.size.height;
+    _videoPlayerController.view.frame = CGRectMake(0, statusHeight+navigationHeight, originWidth,originWidth);
     
 //    NSLog(@"VideoPlay view: x=%f, y=%f, width=%f, height=%f", _videoPlayerController.view.frame.origin.x, _videoPlayerController.view.frame.origin.y, _videoPlayerController.view.frame.size.width, _videoPlayerController.view.frame.size.height);
     
@@ -756,7 +759,7 @@
     [self.view addSubview:_videoPlayerController.view];
     
     _playButton = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"play_button"]];
-    _playButton.center = _videoPlayerController.view.center;
+    _playButton.center = CGPointMake(originWidth/2,_videoPlayerController.view.frame.size.height/2);
     [_videoPlayerController.view addSubview:_playButton];
 }
 
@@ -764,29 +767,38 @@
 {
     CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
     CGFloat screenWidht = [UIScreen mainScreen].bounds.size.width;
-    CGFloat height = 100;
-    _frameScrollView = [[ThemeScrollView alloc] initWithFrame:CGRectMake(_viewToolbar.frame.origin.x, _viewToolbar.frame.origin.y - height, _viewToolbar.frame.size.width, height)];
-    _frameScrollView.backgroundColor = [UIColor clearColor];
+    CGFloat height = screenHeight/5;
+    _frameScrollView = [[ThemeScrollView alloc] initWithFrame:CGRectMake(_viewToolbar.frame.origin.x, _viewToolbar.frame.origin.y - height-height/6, _viewToolbar.frame.size.width, height)];
+//    _frameScrollView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:_frameScrollView];
     
     [self.frameScrollView setDelegate:self];
     [self.frameScrollView setCurrentSelectedItem:0];
     [self.frameScrollView scrollToItemAtIndex:0];
-    self.frameScrollView.hidden = YES;
+    self.frameScrollView.hidden = NO;
 }
 
 - (void)initPreviewView
 {
-    CGFloat orginHeight = self.view.frame.size.width;
+    CGFloat orginHeight = self.view.frame.size.height;
+    CGFloat originWidth = self.view.frame.size.width;
+    if (iOS6 || iOS5)
+    {
+        orginHeight += 20;
+    }
+
+    _videoPlayerController.delegate = self;
+    CGFloat statusHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+    CGFloat navigationHeight = self.navigationController.navigationBar.frame.size.height;
     if (iOS6 || iOS5)
     {
         orginHeight += 20;
     }
     
-    _imageViewPreview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.height, orginHeight)];
-    _imageViewPreview.image = [UIImage imageNamed:@"Background"];
+    _imageViewPreview = [[UIImageView alloc] initWithFrame:CGRectMake(0,statusHeight+navigationHeight, originWidth,originWidth)];
+//    _imageViewPreview.image = [UIImage imageNamed:@"Background"];
     _imageViewPreview.clipsToBounds = TRUE;
-    
+    _imageViewPreview.backgroundColor = [UIColor grayColor];
     [self.view addSubview:_imageViewPreview];
 }
 
@@ -855,7 +867,7 @@
     UIBarButtonItem *CompletedBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.rightBarButtonItem = CompletedBarButtonItem;
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     [self initPreviewView];
     [self initVideoPlayView];
     [self initToolbarView];
