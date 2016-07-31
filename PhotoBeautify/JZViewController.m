@@ -546,7 +546,7 @@
     
     // Progress bar
     [self setProgressBarDefaultStyle];
-    NSString *title = NSLocalizedString(@"Processing", nil);
+    NSString *title = NSLocalizedString(@"Z", nil);
     [self updateProgressBarTitle:title status:@""];
     
     // Pause play
@@ -925,10 +925,12 @@
     return NO;
 }
 
--(NSUInteger)supportedInterfaceOrientations
+/*
+ -(NSUInteger)supportedInterfaceOrientations
 {
     return UIInterfaceOrientationMaskLandscape;
 }
+ */
 
 - (UIInterfaceOrientation)preferredInterfaceOrientationForPresentation
 {
