@@ -267,7 +267,7 @@
         }
         
         // 加载主题视图
-        ThemeImageView *themeView = [[ThemeImageView alloc] initWithFrame:CGRectMake(0, 0, width/4, width/4)];
+        ThemeImageView *themeView = [[ThemeImageView alloc] initWithFrame:CGRectMake(0, 0, width/5, width/5)];
         themeView.themeName = text;
         themeView.thumbImageName = thumbImage;
         themeView.tag = THEME_TAG_BASE + index;
