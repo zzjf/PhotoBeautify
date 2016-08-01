@@ -27,12 +27,14 @@
     VideoEffect *_videoEffects;
     
     PBJVideoPlayerController *_videoPlayerController;
-    UIImageView *_playButton;
+UIImageView *_playButton;
     
     NSMutableArray *_selectedPhotos;
     UzysAssetsPickerController *_imagePicker;
     
     CMPopTipView *_popTipView;
+    UIActivityIndicatorView * _activityIndicatorView;
+    UIView *_videoBg;
 }
 
 @property (copy, nonatomic) NSString* mp4OutputPath;
@@ -92,6 +94,7 @@
 
     NSString *success = NSLocalizedString(@"success", nil);
     [self dismissProgressBar:success];
+    [self removeActivityView];
     [self playMp4Video];
 }
 
@@ -128,9 +131,12 @@
 #pragma mark - Progress callback
 - (void)retrievingProgressMP4:(id)progress
 {
+    //[_videoPlayerController.view bringSubviewToFront:_activityIndicatorView];
+    //[_activityIndicatorView startAnimating];
+    return;
     if (progress && [progress isKindOfClass:[NSNumber class]])
     {
-        NSString *title = NSLocalizedString(@"effect", nil);
+        NSString *title = NSLocalizedString(@"正在处理", nil);
         [self updateProgressBarTitle:title status:[NSString stringWithFormat:@"%d%%", (int)([progress floatValue] * 100)]];
     }
 }
@@ -545,9 +551,9 @@
     }
     
     // Progress bar
-    [self setProgressBarDefaultStyle];
-    NSString *title = NSLocalizedString(@"Z", nil);
-    [self updateProgressBarTitle:title status:@""];
+//    [self setProgressBarDefaultStyle];
+//    NSString *title = NSLocalizedString(@"Z", nil);
+//    [self updateProgressBarTitle:title status:@""];
     
     // Pause play
     if (_videoPlayerController.playbackState == PBJVideoPlayerPlaybackStatePlaying)
@@ -556,9 +562,15 @@
     }
     
     //self.frameScrollView.hidden = YES;
-    
+    _videoBg.hidden = NO;
+    [self.view bringSubviewToFront:_videoBg];
+    [self.view bringSubviewToFront:_activityIndicatorView];
+    [_videoPlayerController stop];
+    _videoPlayerController.view.hidden = YES;
+    [_activityIndicatorView startAnimating];
+    [self.videoEffects clearAll];
     // Build video effect
-    double delayInSeconds = 0.5;
+    double delayInSeconds = 0.0;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void)
        {
@@ -761,6 +773,9 @@
     _playButton = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"play_button"]];
     _playButton.center = CGPointMake(originWidth/2,_videoPlayerController.view.frame.size.height/2);
     [_videoPlayerController.view addSubview:_playButton];
+    _videoBg = [[UIView alloc] initWithFrame:CGRectMake(0, statusHeight+navigationHeight, originWidth,originWidth)];
+    _videoBg.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:_videoBg];
 }
 
 - (void) initThemeScrollView
@@ -860,14 +875,16 @@
 
 - (void)viewDidLoad
 {
+    [super viewDidLoad];
     self.title = @"创建光影秀";
     UIBarButtonItem *barButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.leftBarButtonItem = barButtonItem;
 
     UIBarButtonItem *CompletedBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStylePlain target:nil action:nil];
     self.navigationItem.rightBarButtonItem = CompletedBarButtonItem;
-    [super viewDidLoad];
+
     self.view.backgroundColor = [UIColor whiteColor];
+
     [self initPreviewView];
     [self initVideoPlayView];
     [self initToolbarView];
@@ -876,8 +893,24 @@
     
     self.toggleEffects.enabled = FALSE;
     [self showVideoPlayView:FALSE];
-}
 
+    _activityIndicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    [_activityIndicatorView setHidesWhenStopped:YES];
+    CGFloat statusHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
+    CGFloat navigationHeight = self.navigationController.navigationBar.frame.size.height;
+    _activityIndicatorView.center = CGPointMake(self.view.frame.size.width/2,_videoPlayerController.view.center.y);
+    [self.view addSubview:_activityIndicatorView];
+}
+- (void)removeActivityView
+{
+    if (_activityIndicatorView)
+    {
+        _activityIndicatorView.hidden = YES;
+        [_activityIndicatorView stopAnimating]; // 结束旋转
+        _videoBg.hidden = YES;
+        //[_activityIndicatorView removeFromSuperview];
+    }
+}
 - (void)viewDidUnload
 {
     _videoEffects = nil;

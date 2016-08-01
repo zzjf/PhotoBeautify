@@ -859,7 +859,7 @@
 				ORGANIZATIONNAME = "Future Studio";
 				TargetAttributes = {
 					B2A57AF619A2C523006CF143 = {
-						DevelopmentTeam = E88923T289;
+						DevelopmentTeam = 76FYCBKN8M;
 					};
 				};
 			};

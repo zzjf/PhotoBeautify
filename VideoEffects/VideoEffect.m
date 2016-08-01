@@ -871,7 +871,8 @@
     }
     
     // 6.1
-    dispatch_async(dispatch_get_main_queue(), ^{
+/*
+  dispatch_async(dispatch_get_main_queue(), ^{
         
         // Progress monitor for effect
         _timerEffect = [NSTimer scheduledTimerWithTimeInterval:0.3f
@@ -880,8 +881,17 @@
                                                userInfo:nil
                                                 repeats:YES];
     });
-    
-    
+*/
+
+    dispatch_async(dispatch_get_main_queue(), ^{
+
+        // Progress monitor for effect
+        _timerEffect = [NSTimer scheduledTimerWithTimeInterval:0.3f
+                                                        target:self
+                                                      selector:@selector(retrievingProgressMP4)
+                                                      userInfo:nil
+                                                       repeats:YES];
+    });
     // 7. Success status
     __unsafe_unretained typeof(self) weakSelf = self;
     [weakSelf.exportSession exportAsynchronouslyWithCompletionHandler:^{

@@ -346,9 +346,9 @@ static NSString * const PBJVideoPlayerControllerPlayerKeepUpKey = @"playbackLike
     DLog(@"stop");
     
     [_player pause];
+    _videoView =nil;
     _playbackState = PBJVideoPlayerPlaybackStateStopped;
     [_delegate videoPlayerPlaybackStateDidChange:self];
-    
     [_delegate videoPlayerPlaybackDidEnd:self];
 }
 

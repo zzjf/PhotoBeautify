@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m" line="920" />
-    <bookmark url="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m" line="911" />
+    <bookmark url="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m" line="953" />
+    <bookmark url="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m" line="944" />
+    <bookmark url="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2000bad0-7bb9-4829-8e0c-9a44ea36816c" name="Default" comment="">
+    <list default="true" id="2000bad0-7bb9-4829-8e0c-9a44ea36816c" name="Default" comment="修改了合成等待界面;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/project.xcworkspace/xcuserdata/kevinjfliu.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/project.xcworkspace/xcuserdata/kevinjfliu.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PhotoBeautify.iml" afterPath="$PROJECT_DIR$/.idea/PhotoBeautify.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/xcuserdata/kevinjfliu.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/PhotoBeautify.xcodeproj/xcuserdata/kevinjfliu.xcuserdatad/xcschemes/xcschememanagement.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" afterPath="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" afterPath="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoEffects/VideoEffect.m" afterPath="$PROJECT_DIR$/VideoEffects/VideoEffect.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VideoPlay/PBJVideoPlayerController.m" afterPath="$PROJECT_DIR$/VideoPlay/PBJVideoPlayerController.m" />
     </list>
     <ignored path="PhotoBeautify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,92 +35,17 @@
     <favorites_list name="PhotoBeautify" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="JZViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="917" column="68" selection-start-line="917" selection-start-column="68" selection-end-line="917" selection-end-column="68" />
+            <state relative-caret-position="-1566">
+              <caret line="837" column="43" selection-start-line="837" selection-start-column="43" selection-end-line="837" selection-end-column="43" />
               <folding>
-                <element signature="e#0#2#0" expanded="false" />
-                <element signature="e#464#1875#0" expanded="false" />
-                <element signature="e#612#939#0" expanded="false" />
-                <element signature="e#2146#2804#0" expanded="false" />
-                <element signature="e#2806#3071#0" expanded="false" />
-                <element signature="e#3073#3681#0" expanded="false" />
-                <element signature="e#3683#4283#0" expanded="false" />
-                <element signature="e#4458#4491#0" expanded="true" />
-                <element signature="e#4930#5014#0" expanded="false" />
-                <element signature="e#5148#5253#0" expanded="false" />
-                <element signature="e#5255#5351#0" expanded="false" />
-                <element signature="e#5383#6740#0" expanded="false" />
-                <element signature="e#5991#6636#0" expanded="false" />
-                <element signature="e#6386#6490#0" expanded="false" />
-                <element signature="e#6504#6616#0" expanded="false" />
-                <element signature="e#6650#6736#0" expanded="false" />
-                <element signature="e#6742#8496#0" expanded="false" />
-                <element signature="e#7310#7441#0" expanded="false" />
-                <element signature="e#7462#7886#0" expanded="false" />
-                <element signature="e#7550#7697#0" expanded="false" />
-                <element signature="e#7711#7877#0" expanded="false" />
-                <element signature="e#7908#8342#0" expanded="false" />
-                <element signature="e#8006#8153#0" expanded="false" />
-                <element signature="e#8167#8333#0" expanded="false" />
-                <element signature="e#8361#8492#0" expanded="false" />
-                <element signature="e#8498#9999#0" expanded="false" />
-                <element signature="e#8882#9815#0" expanded="false" />
-                <element signature="e#9420#9638#0" expanded="false" />
-                <element signature="e#9654#9787#0" expanded="false" />
-                <element signature="e#10001#10477#0" expanded="false" />
-                <element signature="e#10479#10903#0" expanded="false" />
-                <element signature="e#10905#11103#0" expanded="false" />
-                <element signature="e#11504#11843#0" expanded="false" />
-                <element signature="e#11906#12260#0" expanded="false" />
-                <element signature="e#12208#12256#0" expanded="false" />
-                <element signature="e#12320#13063#0" expanded="false" />
-                <element signature="e#13065#13549#0" expanded="false" />
-                <element signature="e#13551#13682#0" expanded="false" />
-                <element signature="e#13732#13872#0" expanded="false" />
-                <element signature="e#13874#13959#0" expanded="false" />
-                <element signature="e#13961#14437#0" expanded="false" />
-                <element signature="e#14165#14207#0" expanded="false" />
-                <element signature="e#14219#14433#0" expanded="false" />
-                <element signature="e#14439#14820#0" expanded="false" />
-                <element signature="e#14597#14639#0" expanded="false" />
-                <element signature="e#14651#14816#0" expanded="false" />
-                <element signature="e#14854#15035#0" expanded="false" />
-                <element signature="e#15037#15195#0" expanded="false" />
-                <element signature="e#15197#15451#0" expanded="false" />
-                <element signature="e#15453#15688#0" expanded="false" />
-                <element signature="e#15734#15805#0" expanded="false" />
-                <element signature="e#17018#17558#0" expanded="false" />
-                <element signature="e#17560#17873#0" expanded="false" />
-                <element signature="e#17905#18013#0" expanded="false" />
-                <element signature="e#18015#18709#0" expanded="false" />
-                <element signature="e#18711#18966#0" expanded="false" />
-                <element signature="e#18968#25202#0" expanded="false" />
-                <element signature="e#26440#27134#0" expanded="false" />
-                <element signature="e#27136#27972#0" expanded="false" />
-                <element signature="e#27974#29695#0" expanded="false" />
-                <element signature="e#29697#30036#0" expanded="false" />
-                <element signature="e#30038#30804#0" expanded="false" />
-                <element signature="e#30806#31336#0" expanded="false" />
-                <element signature="e#31338#31386#0" expanded="false" />
-                <element signature="e#31388#31515#0" expanded="false" />
-                <element signature="e#31517#31688#0" expanded="false" />
-                <element signature="e#31690#31732#0" expanded="false" />
-                <element signature="e#31734#31962#0" expanded="false" />
+                <element signature="e#3042#3076#0" expanded="true" />
+                <element signature="e#3260#3294#0" expanded="true" />
+                <element signature="e#3382#3411#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VideoEffect.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VideoEffects/VideoEffect.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12255">
-              <caret line="817" column="17" selection-start-line="817" selection-start-column="17" selection-end-line="817" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -121,13 +54,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PhotoBeautify/JZAppDelegate.m" />
-        <option value="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" />
         <option value="$PROJECT_DIR$/VideoEffects/VideoEffect.m" />
+        <option value="$PROJECT_DIR$/VideoPlay/PBJVideoView.h" />
+        <option value="$PROJECT_DIR$/VideoPlay/PBJVideoPlayerController.m" />
+        <option value="$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m" />
         <option value="$PROJECT_DIR$/PhotoBeautify/JZViewController.m" />
       </list>
     </option>
@@ -138,11 +76,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="x" value="78" />
+    <option name="y" value="128" />
+    <option name="width" value="1425" />
+    <option name="height" value="1181" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,18 +110,13 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.22660479" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="PhotoBeautify" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/kevinjfliu/wp/PhotoBeautify/ProgressBar/MMProgressHUD+Class.m" />
   </component>
   <component name="RunManager" selected="Application.PhotoBeautify">
-    <configuration default="false" name="PhotoBeautify" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PhotoBeautify" TARGET_NAME="PhotoBeautify" CONFIG_NAME="Debug" SCHEME_NAME="PhotoBeautify" RUN_TARGET_PROJECT_NAME="PhotoBeautify" RUN_TARGET_NAME="PhotoBeautify" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
-      <envs />
-      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
-        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
-      </EXTENSION>
-      <method />
-    </configuration>
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PhotoBeautify" TARGET_NAME="PhotoBeautify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PhotoBeautify" RUN_TARGET_NAME="PhotoBeautify" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
@@ -217,20 +151,25 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="PhotoBeautify" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PhotoBeautify" TARGET_NAME="PhotoBeautify" CONFIG_NAME="Debug" SCHEME_NAME="PhotoBeautify" RUN_TARGET_PROJECT_NAME="PhotoBeautify" RUN_TARGET_NAME="PhotoBeautify" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.PhotoBeautify" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.PhotoBeautify" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -245,35 +184,44 @@
       <workItem from="1469876183506" duration="6211000" />
       <workItem from="1469930661047" duration="3938000" />
       <workItem from="1469935519153" duration="7000" />
+      <workItem from="1469939054165" duration="894000" />
+      <workItem from="1469940067286" duration="999000" />
+      <workItem from="1469941901849" duration="474000" />
+      <workItem from="1469942645919" duration="407000" />
+      <workItem from="1469943190493" duration="8726000" />
+      <workItem from="1469952740435" duration="1084000" />
+      <workItem from="1469970033606" duration="607000" />
+      <workItem from="1469975698864" duration="858000" />
+      <workItem from="1470012888279" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19632000" />
+    <option name="totallyTimeSpent" value="33714000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="78" y="128" width="1425" height="1181" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26171875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26035088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="193" y="210" width="692" height="743" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49452055" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.50547945" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.24912281" sideWeight="0.49452055" order="1" side_tool="false" content_ui="tabs" x="509" y="291" width="695" height="973" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24593967" sideWeight="0.50547945" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36994728" sideWeight="0.502849" order="9" side_tool="false" content_ui="tabs" x="1429" y="911" width="957" height="441" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2545969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3321617" sideWeight="0.50783473" order="2" side_tool="false" content_ui="tabs" x="1185" y="888" width="1068" height="472" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952547" sideWeight="0.502849" order="1" side_tool="false" content_ui="tabs" x="459" y="652" width="1351" height="670" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39888424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3629174" sideWeight="0.497151" order="3" side_tool="false" content_ui="tabs" x="988" y="738" width="1289" height="620" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -297,6 +245,25 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS" value="false" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
@@ -308,6 +275,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改了合成等待界面;" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了合成等待界面;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -318,29 +289,54 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
-          <line>345</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
-          <line>528</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
-          <line>157</line>
+          <line>163</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/ProgressBar/MMProgressHUD+Class.m</url>
-          <line>46</line>
-          <option name="timeStamp" value="14" />
+          <line>45</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
+          <line>534</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
+          <line>352</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
+          <line>351</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
+          <line>364</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/VideoEffects/VideoEffect.m</url>
+          <line>181</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m</url>
+          <line>465</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/VideoEffects/VideoEffect.m</url>
+          <line>959</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="AppleRunConfiguration">
@@ -354,18 +350,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_back@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/toolBar_shade@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_1_on@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_3@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_3_on@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_3_on.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_2.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_0_on@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_1@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_2@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_2_on@2x.png" />
-    <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_0.png" />
     <entry file="file://$PROJECT_DIR$/Resource/tabImages/tabBar_0@2x.png" />
     <entry file="file://$PROJECT_DIR$/Resource/Toolbar/cameraRoll_up.png">
       <provider selected="true" editor-type-id="images">
@@ -467,25 +451,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="218" column="27" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImagePicker/UzysAssetsPickerController.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="421" column="109" selection-start-line="421" selection-start-column="109" selection-end-line="421" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -571,191 +540,297 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
-          <folding>
-            <marker date="1456982114000" expanded="true" signature="0:98" ph="//..." />
-            <marker date="1456982114000" expanded="false" signature="108:315" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="387:847" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="917:1065" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="1345:1747" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="1768:1943" ph="/.../" />
-            <marker date="1456982114000" expanded="true" signature="2124:2995" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="3487:3613" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="3722:3849" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="3908:4157" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="4396:4504" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="4606:4917" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="5016:5114" ph="{...}" />
-            <marker date="1456982114000" expanded="true" signature="5791:10846" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="9390:9944" ph="/**...*/" />
-            <marker date="1456982114000" expanded="true" signature="10076:10372" ph="/**...*/" />
-            <marker date="1456982114000" expanded="true" signature="10900:12291" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="12543:13153" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="13247:13704" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="13758:13889" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="13933:14098" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="14180:14409" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="14488:15854" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="15892:27593" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="20495:21199" ph="/**...*/" />
-            <marker date="1456982114000" expanded="true" signature="27648:29867" ph="..." />
-            <marker date="1456982114000" expanded="true" signature="29873:30114" ph="//..." />
-            <marker date="1456982114000" expanded="true" signature="33908:34124" ph="//..." />
-            <marker date="1456982114000" expanded="true" signature="35128:35245" ph="//..." />
-            <marker date="1456982114000" expanded="true" signature="36715:36908" ph="//..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/UIImage+Help.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/UIImage+Help.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Extension/UIImage+CWAdditions.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="81" column="29" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProgressBar/MMProgressHUD.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="379">
+          <caret line="176" column="8" selection-start-line="176" selection-start-column="8" selection-end-line="176" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProgressBar/MMProgressHUD+Class.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="323">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1469812606000" expanded="true" signature="0:155" ph="//..." />
-            <marker date="1469812606000" expanded="true" signature="210:698" ph="..." />
-            <marker date="1469812606000" expanded="true" signature="733:10792" ph="..." />
-            <marker date="1469812606000" expanded="true" signature="835:907" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="966:1052" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="1104:1159" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="1225:1785" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="1458:1474" ph="@[...]" />
-            <marker date="1469812606000" expanded="true" signature="1836:1907" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="2044:2278" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="2534:2901" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3027:3192" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3278:3405" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3448:3572" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3611:3664" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3706:3787" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3831:3913" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="3996:4154" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="4278:4438" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="4562:4723" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="4855:5021" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="5207:5401" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="5382:5390" ph="@[...]" />
-            <marker date="1469812606000" expanded="true" signature="5574:5780" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="5954:6161" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="6379:6610" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="6592:6600" ph="@[...]" />
-            <marker date="1469812606000" expanded="true" signature="6829:7629" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="6986:7310" ph="^{...}" />
-            <marker date="1469812606000" expanded="true" signature="7778:8531" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="7870:8201" ph="^{...}" />
-            <marker date="1469812606000" expanded="true" signature="8620:8780" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="8826:8914" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="9007:9137" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="9281:10038" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="9373:9706" ph="^{...}" />
-            <marker date="1469812606000" expanded="true" signature="10131:10297" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="10345:10437" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="10487:10547" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="10565:10790" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="10657:10718" ph="^{...}" />
-            <marker date="1469812606000" expanded="true" signature="10827:14233" ph="..." />
-            <marker date="1469812606000" expanded="true" signature="11010:11300" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="11517:11826" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="11808:11816" ph="@[...]" />
-            <marker date="1469812606000" expanded="true" signature="12044:12337" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="12620:12927" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="13234:13560" ph="{...}" />
-            <marker date="1469812606000" expanded="true" signature="13542:13550" ph="@[...]" />
-            <marker date="1469812606000" expanded="true" signature="13891:14230" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="0:155" ph="//..." />
+            <marker date="1469783365000" expanded="true" signature="210:698" ph="..." />
+            <marker date="1469783365000" expanded="true" signature="733:10792" ph="..." />
+            <marker date="1469783365000" expanded="true" signature="835:907" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="966:1052" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="1104:1159" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="1225:1785" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="1458:1474" ph="@[...]" />
+            <marker date="1469783365000" expanded="true" signature="1836:1907" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="2044:2278" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="2534:2901" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3027:3192" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3278:3405" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3448:3572" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3611:3664" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3706:3787" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3831:3913" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="3996:4154" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="4278:4438" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="4562:4723" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="4855:5021" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="5207:5401" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="5382:5390" ph="@[...]" />
+            <marker date="1469783365000" expanded="true" signature="5574:5780" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="5954:6161" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="6379:6610" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="6592:6600" ph="@[...]" />
+            <marker date="1469783365000" expanded="true" signature="6829:7629" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="6986:7310" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="7778:8531" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="7870:8201" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="8620:8780" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="8826:8914" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="9007:9137" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="9281:10038" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="9373:9706" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="10131:10297" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="10345:10437" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="10487:10547" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="10565:10790" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="10657:10718" ph="^{...}" />
+            <marker date="1469783365000" expanded="true" signature="10827:14233" ph="..." />
+            <marker date="1469783365000" expanded="true" signature="11010:11300" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="11517:11826" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="11808:11816" ph="@[...]" />
+            <marker date="1469783365000" expanded="true" signature="12044:12337" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="12620:12927" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="13234:13560" ph="{...}" />
+            <marker date="1469783365000" expanded="true" signature="13542:13550" ph="@[...]" />
+            <marker date="1469783365000" expanded="true" signature="13891:14230" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeImageView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIActivityIndicatorView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStateRestoration.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoPlay/PBJVideoView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoEffects/VideoThemes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoPlay/PBJVideoPlayerController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoPlay/PBJVideoPlayerController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="476" column="27" selection-start-line="476" selection-start-column="17" selection-end-line="476" selection-end-column="27" />
+          <folding>
+            <marker date="1469948433000" expanded="true" signature="0:1246" ph="//..." />
+            <marker date="1469948433000" expanded="false" signature="1256:1348" ph="..." />
+            <marker date="1469948433000" expanded="false" signature="1419:1485" ph="..." />
+            <marker date="1469948433000" expanded="true" signature="2259:2449" ph="//..." />
+            <marker date="1469948433000" expanded="true" signature="2524:2897" ph="..." />
+            <marker date="1469948433000" expanded="true" signature="2525:2895" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="2791:2877" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="2943:14992" ph="..." />
+            <marker date="1469948433000" expanded="false" signature="2957:3104" ph="..." />
+            <marker date="1469948433000" expanded="true" signature="3162:3188" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="3233:3594" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="3618:3654" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="3701:3990" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="4022:4219" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="4256:5779" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="4605:4715" ph="@[...]" />
+            <marker date="1469948433000" expanded="true" signature="4789:5775" ph="^{...}" />
+            <marker date="1469948433000" expanded="true" signature="4831:5767" ph="^{...}" />
+            <marker date="1469948433000" expanded="true" signature="5831:8125" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="8164:8576" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="8626:9759" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="9801:9932" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="10018:10307" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="10336:10339" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="10398:10581" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="10611:10777" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="10793:11037" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="11052:11361" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="11497:11574" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="11545:11570" ph="^{...}" />
+            <marker date="1469948433000" expanded="true" signature="11669:12354" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="12416:12685" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="12789:12887" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="12962:13190" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="13296:13383" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="13456:13459" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="13531:13618" ph="{...}" />
+            <marker date="1469948433000" expanded="true" signature="13765:14990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="116" column="8" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <marker date="1469949607000" expanded="true" signature="0:142" ph="//..." />
+            <marker date="1469949607000" expanded="true" signature="297:817" ph="..." />
+            <marker date="1469949607000" expanded="true" signature="705:730" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="757:782" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="855:10833" ph="..." />
+            <marker date="1469949607000" expanded="true" signature="873:1217" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="1219:1245" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="1267:1358" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="1394:1543" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="1545:1568" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="1588:2386" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="2388:2447" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="2501:3040" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="3042:3103" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="3152:3868" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="3870:3938" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="3996:4962" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="5076:5691" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="5728:5752" ph="/**...*/" />
+            <marker date="1469949607000" expanded="true" signature="5777:7716" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="7764:8033" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="8077:8359" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="8401:8831" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="8865:8963" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="9015:9529" ph="{...}" />
+            <marker date="1469949607000" expanded="true" signature="9576:10831" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThemeScrollView/ThemeScrollView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/VideoEffects/VideoEffect.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12255">
-          <caret line="817" column="17" selection-start-line="817" selection-start-column="17" selection-end-line="817" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <marker date="1469947246000" expanded="true" signature="0:143" ph="//..." />
+            <marker date="1469947246000" expanded="false" signature="153:282" ph="..." />
+            <marker date="1469947246000" expanded="true" signature="331:768" ph="..." />
+            <marker date="1469947246000" expanded="true" signature="332:484" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="802:39621" ph="..." />
+            <marker date="1469947246000" expanded="false" signature="816:1050" ph="..." />
+            <marker date="1469947246000" expanded="true" signature="1118:1521" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="1541:1781" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="1799:1851" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="1868:1961" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="1979:2003" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="3557:3855" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="4008:4519" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="4594:4672" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="4880:39213" ph="{...}" />
+            <marker date="1469947246000" expanded="true" signature="35896:36344" ph="/.../" />
+            <marker date="1469947246000" expanded="true" signature="36392:36808" ph="^{...}" />
+            <marker date="1469947246000" expanded="true" signature="36960:39188" ph="^{...}" />
+            <marker date="1469947246000" expanded="true" signature="37148:37810" ph="^{...}" />
+            <marker date="1469947246000" expanded="true" signature="37990:38512" ph="^{...}" />
+            <marker date="1469947246000" expanded="true" signature="39245:39619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VideoEffects/VideoBuilder.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="529" column="1" selection-start-line="529" selection-start-column="1" selection-end-line="529" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhotoBeautify/JZViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="917" column="68" selection-start-line="917" selection-start-column="68" selection-end-line="917" selection-end-column="68" />
+        <state relative-caret-position="-1566">
+          <caret line="837" column="43" selection-start-line="837" selection-start-column="43" selection-end-line="837" selection-end-column="43" />
           <folding>
-            <element signature="e#0#2#0" expanded="false" />
-            <element signature="e#464#1875#0" expanded="false" />
-            <element signature="e#612#939#0" expanded="false" />
-            <element signature="e#2146#2804#0" expanded="false" />
-            <element signature="e#2806#3071#0" expanded="false" />
-            <element signature="e#3073#3681#0" expanded="false" />
-            <element signature="e#3683#4283#0" expanded="false" />
-            <element signature="e#4458#4491#0" expanded="true" />
-            <element signature="e#4930#5014#0" expanded="false" />
-            <element signature="e#5148#5253#0" expanded="false" />
-            <element signature="e#5255#5351#0" expanded="false" />
-            <element signature="e#5383#6740#0" expanded="false" />
-            <element signature="e#5991#6636#0" expanded="false" />
-            <element signature="e#6386#6490#0" expanded="false" />
-            <element signature="e#6504#6616#0" expanded="false" />
-            <element signature="e#6650#6736#0" expanded="false" />
-            <element signature="e#6742#8496#0" expanded="false" />
-            <element signature="e#7310#7441#0" expanded="false" />
-            <element signature="e#7462#7886#0" expanded="false" />
-            <element signature="e#7550#7697#0" expanded="false" />
-            <element signature="e#7711#7877#0" expanded="false" />
-            <element signature="e#7908#8342#0" expanded="false" />
-            <element signature="e#8006#8153#0" expanded="false" />
-            <element signature="e#8167#8333#0" expanded="false" />
-            <element signature="e#8361#8492#0" expanded="false" />
-            <element signature="e#8498#9999#0" expanded="false" />
-            <element signature="e#8882#9815#0" expanded="false" />
-            <element signature="e#9420#9638#0" expanded="false" />
-            <element signature="e#9654#9787#0" expanded="false" />
-            <element signature="e#10001#10477#0" expanded="false" />
-            <element signature="e#10479#10903#0" expanded="false" />
-            <element signature="e#10905#11103#0" expanded="false" />
-            <element signature="e#11504#11843#0" expanded="false" />
-            <element signature="e#11906#12260#0" expanded="false" />
-            <element signature="e#12208#12256#0" expanded="false" />
-            <element signature="e#12320#13063#0" expanded="false" />
-            <element signature="e#13065#13549#0" expanded="false" />
-            <element signature="e#13551#13682#0" expanded="false" />
-            <element signature="e#13732#13872#0" expanded="false" />
-            <element signature="e#13874#13959#0" expanded="false" />
-            <element signature="e#13961#14437#0" expanded="false" />
-            <element signature="e#14165#14207#0" expanded="false" />
-            <element signature="e#14219#14433#0" expanded="false" />
-            <element signature="e#14439#14820#0" expanded="false" />
-            <element signature="e#14597#14639#0" expanded="false" />
-            <element signature="e#14651#14816#0" expanded="false" />
-            <element signature="e#14854#15035#0" expanded="false" />
-            <element signature="e#15037#15195#0" expanded="false" />
-            <element signature="e#15197#15451#0" expanded="false" />
-            <element signature="e#15453#15688#0" expanded="false" />
-            <element signature="e#15734#15805#0" expanded="false" />
-            <element signature="e#17018#17558#0" expanded="false" />
-            <element signature="e#17560#17873#0" expanded="false" />
-            <element signature="e#17905#18013#0" expanded="false" />
-            <element signature="e#18015#18709#0" expanded="false" />
-            <element signature="e#18711#18966#0" expanded="false" />
-            <element signature="e#18968#25202#0" expanded="false" />
-            <element signature="e#26440#27134#0" expanded="false" />
-            <element signature="e#27136#27972#0" expanded="false" />
-            <element signature="e#27974#29695#0" expanded="false" />
-            <element signature="e#29697#30036#0" expanded="false" />
-            <element signature="e#30038#30804#0" expanded="false" />
-            <element signature="e#30806#31336#0" expanded="false" />
-            <element signature="e#31338#31386#0" expanded="false" />
-            <element signature="e#31388#31515#0" expanded="false" />
-            <element signature="e#31517#31688#0" expanded="false" />
-            <element signature="e#31690#31732#0" expanded="false" />
-            <element signature="e#31734#31962#0" expanded="false" />
+            <element signature="e#3042#3076#0" expanded="true" />
+            <element signature="e#3260#3294#0" expanded="true" />
+            <element signature="e#3382#3411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
