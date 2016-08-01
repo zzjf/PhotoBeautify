@@ -178,6 +178,7 @@
 // Add effect
 - (BOOL)buildVideoEffectsToMP4:(NSString *)exportVideoFile inputVideoFile:(NSString *)inputVideoFile photos:(NSMutableArray*)photos  highestQuality:(BOOL)highestQuality
 {
+    CGFloat start = [[NSDate date] timeIntervalSince1970];
     // 1.
     if (isStringEmpty(inputVideoFile) || isStringEmpty(exportVideoFile) || (!photos || [photos count]<1))
     {
@@ -902,7 +903,9 @@
                     }
 
                     NSLog(@"Output Mp4 is %@", exportVideoFile);
-                    
+                    CGFloat end = [[NSDate date] timeIntervalSince1970];
+                    NSLog(@"effect %@ consuming time is %f",inputVideoFile,(end - start));
+
                 });
                 
                 break;
