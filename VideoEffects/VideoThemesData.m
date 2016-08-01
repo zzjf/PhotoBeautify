@@ -141,7 +141,7 @@
     theme.bgMusicFile = @"1.mp3";
     theme.imageFile = nil;
     theme.scrollText = nil;
-    theme.bgVideoFile = @"bgVideo01.mov";
+    theme.bgVideoFile = @"bgVideo01.mp4";
     
     // Animation effects
     NSArray *aniActions = [NSArray arrayWithObjects:[NSNumber numberWithInt:kAnimationTextStar], [NSNumber numberWithInt:kAnimationPhotoLinearScroll], [NSNumber numberWithInt:KAnimationPhotoCentringShow], [NSNumber numberWithInt:kAnimationTextSparkle], nil];

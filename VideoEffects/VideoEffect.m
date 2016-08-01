@@ -178,6 +178,8 @@
 // Add effect
 - (BOOL)buildVideoEffectsToMP4:(NSString *)exportVideoFile inputVideoFile:(NSString *)inputVideoFile photos:(NSMutableArray*)photos  highestQuality:(BOOL)highestQuality
 {
+    CGFloat videoWidth = 320;
+    CGFloat videoHeight =320;
     CGFloat start = [[NSDate date] timeIntervalSince1970];
     // 1.
     if (isStringEmpty(inputVideoFile) || isStringEmpty(exportVideoFile) || (!photos || [photos count]<1))
@@ -195,7 +197,7 @@
     
     // 2. Create the composition and tracks
     AVURLAsset *asset = [[AVURLAsset alloc] initWithURL:inputVideoURL options:nil];
-    NSParameterAssert(asset);
+    //NSParameterAssert(asset);
     if(asset == nil || [[asset tracksWithMediaType:AVMediaTypeVideo] count]<1)
     {
         NSLog(@"Input video is invalid!");
@@ -205,7 +207,7 @@
     AVMutableComposition *composition = [AVMutableComposition composition];
     AVMutableCompositionTrack *videoTrack = [composition addMutableTrackWithMediaType:AVMediaTypeVideo preferredTrackID:kCMPersistentTrackID_Invalid];
     AVMutableCompositionTrack *audioTrack = [composition addMutableTrackWithMediaType:AVMediaTypeAudio preferredTrackID:kCMPersistentTrackID_Invalid];
-    
+
     NSArray *assetVideoTracks = [asset tracksWithMediaType:AVMediaTypeVideo];
     if (assetVideoTracks.count <= 0)
     {
@@ -242,8 +244,8 @@
     // 4. Effects
     CALayer *parentLayer = [CALayer layer];
     CALayer *videoLayer = [CALayer layer];
-    parentLayer.frame = CGRectMake(0, 0, assetVideoTrack.naturalSize.width, assetVideoTrack.naturalSize.height);
-    videoLayer.frame = CGRectMake(0, 0, assetVideoTrack.naturalSize.width, assetVideoTrack.naturalSize.height);
+    parentLayer.frame = CGRectMake(0, 0, videoWidth, videoHeight);
+    videoLayer.frame = CGRectMake(0, 0, videoWidth, videoHeight);
     [parentLayer addSublayer:videoLayer];
     
     VideoThemes *themeCurrent = nil;
@@ -259,17 +261,19 @@
         for (NSNumber *animationAction in [themeCurrent animationActions])
         {
             CALayer *animatedLayer = nil;
+            CGFloat inStart = [[NSDate date] timeIntervalSince1970];
             switch ([animationAction intValue])
             {
+
                 case kAnimationFireworks:
                 {
+                    CGFloat inStart = [[NSDate date] timeIntervalSince1970];
                     NSTimeInterval timeInterval = 0.1;
                     animatedLayer = [_videoBuilder buildEmitterFireworks:assetVideoTrack.naturalSize startTime:timeInterval];
                     if (animatedLayer)
                     {
                         [animatedLayers addObject:(id)animatedLayer];
                     }
-                    
                     break;
                 }
                 case kAnimationSnow:
@@ -280,7 +284,7 @@
                     {
                         [animatedLayers addObject:(id)animatedLayer];
                     }
-                    
+
                     break;
                 }
                 case kAnimationSnow2:
@@ -751,6 +755,7 @@
                 default:
                     break;
             }
+            NSLog(@"effect %d consuming time is %f",[animationAction intValue], [[NSDate date] timeIntervalSince1970]-inStart);
         }
         
         if (animatedLayers && [animatedLayers count] > 0)
@@ -761,7 +766,7 @@
             }
         }
     }
-    
+    CGFloat preStart = [[NSDate date] timeIntervalSince1970];
     // Make a "pass through video track" video composition.
     AVMutableVideoCompositionInstruction *passThroughInstruction = [AVMutableVideoCompositionInstruction videoCompositionInstruction];
     passThroughInstruction.timeRange = CMTimeRangeMake(kCMTimeZero, [asset duration]);
@@ -819,7 +824,7 @@
     videoComposition.animationTool = [AVVideoCompositionCoreAnimationTool videoCompositionCoreAnimationToolWithPostProcessingAsVideoLayer:videoLayer inLayer:parentLayer];
     videoComposition.frameDuration = CMTimeMake(1, 30); // 30 fps
     videoComposition.renderSize =  assetVideoTrack.naturalSize;
-    
+    videoComposition.renderSize = CGSizeMake(videoWidth,videoHeight);
     if (animatedLayers)
     {
         [animatedLayers removeAllObjects];
@@ -846,20 +851,23 @@
     // 6. Export to mp4 （Attention: iOS 5.0不支持导出MP4，会crash）
     unlink([exportVideoFile UTF8String]);
     
-    NSString *mp4Quality = AVAssetExportPresetMediumQuality; //AVAssetExportPresetPassthrough
-    if (highestQuality)
-    {
-        mp4Quality = AVAssetExportPresetHighestQuality;
-    }
+    //NSString *mp4Quality = AVAssetExportPresetMediumQuality; //AVAssetExportPresetPassthrough
+    NSString *mp4Quality = AVAssetExportPresetLowQuality;
+//    if (highestQuality)
+//    {
+//        mp4Quality = AVAssetExportPresetHighestQuality;
+//    }
     NSString *exportPath = exportVideoFile;
+    //exportPath = [exportPath stringByAppendingString:@".mov"];
     NSURL *exportUrl = [NSURL fileURLWithPath:[self returnFormatString:exportPath]];
-    
+
     _exportSession = [[AVAssetExportSession alloc] initWithAsset:composition presetName:mp4Quality];
     _exportSession.outputURL = exportUrl;
-    _exportSession.outputFileType = [[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0 ? AVFileTypeMPEG4 : AVFileTypeQuickTimeMovie;
+    //_exportSession.outputFileType = [[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0 ? AVFileTypeMPEG4 : AVFileTypeQuickTimeMovie;
     
-    _exportSession.shouldOptimizeForNetworkUse = YES;
-    
+    _exportSession.shouldOptimizeForNetworkUse = NO;
+//    _exportSession.outputFileType = AVFileTypeMPEG4;
+    _exportSession.outputFileType = AVFileTypeMPEG4;
     if (audioMix)
     {
         _exportSession.audioMix = audioMix;
@@ -883,17 +891,23 @@
     });
 */
 
-    dispatch_async(dispatch_get_main_queue(), ^{
-
-        // Progress monitor for effect
-        _timerEffect = [NSTimer scheduledTimerWithTimeInterval:0.3f
-                                                        target:self
-                                                      selector:@selector(retrievingProgressMP4)
-                                                      userInfo:nil
-                                                       repeats:YES];
-    });
+//    dispatch_async(dispatch_get_main_queue(), ^{
+//
+//        // Progress monitor for effect
+//        _timerEffect = [NSTimer scheduledTimerWithTimeInterval:0.3f
+//                                                        target:self
+//                                                      selector:@selector(retrievingProgressMP4)
+//                                                      userInfo:nil
+//                                                       repeats:YES];
+//    });
     // 7. Success status
+
+    NSLog(@"effect pres consuming time is %f", [[NSDate date] timeIntervalSince1970]-preStart);
+    CGFloat comsStart = [[NSDate date] timeIntervalSince1970];
     __unsafe_unretained typeof(self) weakSelf = self;
+
+
+
     [weakSelf.exportSession exportAsynchronouslyWithCompletionHandler:^{
         switch ([weakSelf.exportSession status])
         {
@@ -915,7 +929,7 @@
                     NSLog(@"Output Mp4 is %@", exportVideoFile);
                     CGFloat end = [[NSDate date] timeIntervalSince1970];
                     NSLog(@"effect %@ consuming time is %f",inputVideoFile,(end - start));
-
+                    NSLog(@"effect coms consuming time is %f ;",(end - comsStart));
                 });
                 
                 break;

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C7B691B1D4FA33400D3F3E3 /* bgVideo01.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C7B691A1D4FA33400D3F3E3 /* bgVideo01.mp4 */; };
 		B21E000019A6D9E5000F173C /* saveCameraRoll_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B21EFFAC19A6D9E5000F173C /* saveCameraRoll_up@2x.png */; };
 		B21E000119A6D9E5000F173C /* saved@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B21EFFAD19A6D9E5000F173C /* saved@2x.png */; };
 		B21E000219A6D9E5000F173C /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B21EFFAE19A6D9E5000F173C /* selected.png */; };
@@ -25,7 +26,6 @@
 		B21EFEDF19A6B96A000F173C /* border_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B21EFE5519A6B96A000F173C /* border_3.png */; };
 		B21EFEE119A6B96A000F173C /* border_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B21EFE5719A6B96A000F173C /* border_2.png */; };
 		B21EFF0219A6B96A000F173C /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B21EFE7C19A6B96A000F173C /* 4.mp3 */; };
-		B21EFF1819A6B96A000F173C /* bgVideo01.mov in Resources */ = {isa = PBXBuildFile; fileRef = B21EFE9319A6B96A000F173C /* bgVideo01.mov */; };
 		B21EFF1919A6B96A000F173C /* bgVideo03.m4v in Resources */ = {isa = PBXBuildFile; fileRef = B21EFE9419A6B96A000F173C /* bgVideo03.m4v */; };
 		B21EFF1A19A6B96A000F173C /* bgVideo02.m4v in Resources */ = {isa = PBXBuildFile; fileRef = B21EFE9519A6B96A000F173C /* bgVideo02.m4v */; };
 		B21EFF4C19A6D0A1000F173C /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = B21EFF3819A6D0A1000F173C /* MMHud.m */; };
@@ -183,6 +183,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C7B691A1D4FA33400D3F3E3 /* bgVideo01.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgVideo01.mp4; sourceTree = "<group>"; };
 		B21EFE0C19A6B96A000F173C /* border_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border_0.png; sourceTree = "<group>"; };
 		B21EFE0E19A6B96A000F173C /* border_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border_1.png; sourceTree = "<group>"; };
 		B21EFE2019A6B96A000F173C /* border_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = border_4.png; sourceTree = "<group>"; };
@@ -474,6 +475,7 @@
 		B21EFE9219A6B96A000F173C /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				9C7B691A1D4FA33400D3F3E3 /* bgVideo01.mp4 */,
 				B2A056B819AEE8DD00623086 /* bgVideo08.mov */,
 				B2BC721219AD542500C6C999 /* bgVideo07.mov */,
 				B2A58E1319AB4C15007B333F /* bgVideo05.mov */,
@@ -976,7 +978,6 @@
 				B21EFFC819A6D9E5000F173C /* rain.png in Resources */,
 				B21EFFB219A6D9E5000F173C /* bgStar1.png in Resources */,
 				B21EFF0219A6B96A000F173C /* 4.mp3 in Resources */,
-				B21EFF1819A6B96A000F173C /* bgVideo01.mov in Resources */,
 				B21EFFEA19A6D9E5000F173C /* cameraButton_ready@2x.png in Resources */,
 				B21E000119A6D9E5000F173C /* saved@2x.png in Resources */,
 				B22694BE19CC72F800EA3811 /* UzysAssetPickerController.bundle in Resources */,
@@ -1010,6 +1011,7 @@
 				B21EFFF419A6D9E5000F173C /* continue_up@2x.png in Resources */,
 				B21EFFFF19A6D9E5000F173C /* saveCameraRoll_down@2x.png in Resources */,
 				B21EFFCA19A6D9E5000F173C /* smoke15.png in Resources */,
+				9C7B691B1D4FA33400D3F3E3 /* bgVideo01.mp4 in Resources */,
 				B21EFFF019A6D9E5000F173C /* cameraRoll_up@2x.png in Resources */,
 				B21EFFF819A6D9E5000F173C /* drawerClose_up@2x.png in Resources */,
 				B21EFF1919A6B96A000F173C /* bgVideo03.m4v in Resources */,
@@ -1174,13 +1176,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JINGZHOU XU (6726FSYBSS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBeautify/PhotoBeautify-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBeautify/PhotoBeautify-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzjf.PhotoBeautify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "da6b810a-68e4-428e-9b53-0285c89e4841";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1192,13 +1195,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JINGZHOU XU (E88923T289)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBeautify/PhotoBeautify-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBeautify/PhotoBeautify-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzjf.PhotoBeautify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1df84ff9-a0d9-4dfb-afe4-5fd6c11fc71d";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1245,13 +1249,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JINGZHOU XU (E88923T289)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhotoBeautify/PhotoBeautify-Prefix.pch";
 				INFOPLIST_FILE = "PhotoBeautify/PhotoBeautify-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzjf.PhotoBeautify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1df84ff9-a0d9-4dfb-afe4-5fd6c11fc71d";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
