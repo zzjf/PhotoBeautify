@@ -11,61 +11,86 @@
       <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoThemes.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VideoEffects/CommonDefine.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoThemesData.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoThemes.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoEffect.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoBuilder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoBuilder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoThemes.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoEffect.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoBuilder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoEffect.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/VideoEffects/VideoThemesData.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsViewCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupPickerView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAppearanceConfig.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupPickerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsPickerController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UIImage+UzysExtension.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupPickerViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsPickerController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupPickerViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsPickerController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupViewCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetPickerController.bundle" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsPickerController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAppearanceConfig.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupViewCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UIImage+UzysExtension.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysWrapperPickerController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAppearanceConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupViewCell.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysWrapperPickerController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsPickerController_Configuration.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsPickerController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetPickerController.bundle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAssetsViewCell.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysGroupPickerView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UIImage+UzysExtension.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ImagePicker/UzysAppearanceConfig.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoPlayerController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoPlayerController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDOverlayView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD+Class.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDCommon.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDWindow.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDWindow.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressView-Protocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD+Animations.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD+Animations.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMHud.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMHud.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMLinearProgressView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMVectorImage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMLinearProgressView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMRadialProgressView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDOverlayView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMVectorImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMRadialProgressView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazRing.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/cake01.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow11.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow9.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow5.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow1.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow4.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow6.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow13.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow2.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow12.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow3.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow10.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow8.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow7.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/star.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazFire.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/bgStar.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/dot.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/particles.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/smoke15.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazStarOutline.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/steam.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/cycle1.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazHeart.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazSmoke.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/star.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/bgStar1.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazFire.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow11.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow9.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow10.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow1.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow4.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow5.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow6.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow2.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow8.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow12.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow3.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow13.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/snow/snow7.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/point.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/cake01.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/waterdrop/ani_3.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/waterdrop/ani_1.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/waterdrop/ani_2.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/birthday.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/flower/flower7.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/flower/flower3.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/flower/flower8.png" isTestSource="false" />
@@ -75,10 +100,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/flower/flower6.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/flower/flower2.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/spark.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazStarOutline.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/particles.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/star1.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/rain.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/smoke15.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/birthday.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazTriangle.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/smoke.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/SpriteEffect/DazFlake.png" isTestSource="false" />
@@ -86,6 +111,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Resource/LaunchImages/Default@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/LaunchImages/Default-568h@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/selected.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/continue_down@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_done_down.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraRoll_down.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/saveCameraRoll_disabled@2x.png" isTestSource="false" />
@@ -94,39 +120,38 @@
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraButton_ready@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cancel_up@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerOpen_up@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/saved@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_camera_up@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/continue_down@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerClose_up.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_camera_up.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_done_up.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraButton_ready.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_cameraroll.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_camera_down.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/saved@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/continue_up@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cancel_down@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_cameraroll@2x 2.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/saveCameraRoll_up@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraRoll_down@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraButton_take@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_done_up.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_camera_down@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerOpen_down@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraButton_take.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_effects@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_effects.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerOpen_up.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerClose_up@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/saveCameraRoll_up@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraRoll_up.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_camera_down@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerClose_up@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/btn_cameraroll@2x 2.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerClose_down@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerClose_down.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerClose_up.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraButton_take@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/play_button@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/toolbar_bkg@2x.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/saveCameraRoll_down@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/continue_up@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/drawerOpen_up.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Toolbar/cameraRoll_up@2x.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo01.mp4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo03.m4v" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo06.mov" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo07.mov" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo01.mp4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo08.mov" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo04.mov" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Video/bgVideo02.m4v" isTestSource="false" />
@@ -162,40 +187,15 @@
       <sourceFolder url="file://$MODULE_DIR$/Resource/Borders/border_1.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Borders/border_6.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Resource/Borders/border_2.png" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoPlayerController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoPlayerController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/VideoPlay/PBJVideoView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDOverlayView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD+Animations.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD+Class.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDWindow.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD+Animations.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressView-Protocol.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDWindow.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUD.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDCommon.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMHud.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMHud.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMLinearProgressView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMVectorImage.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMLinearProgressView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMRadialProgressView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDOverlayView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMVectorImage.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMProgressHUDViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ProgressBar/MMRadialProgressView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extension/CurledViewBase.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+Reflection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+Help.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Extension/UIColor+Help.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+Help.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extension/CurledViewBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+CWAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+Reflection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+CWAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+Reflection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Extension/UIColor+Help.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+Help.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+CWAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Extension/UIImage+CWAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Extension/CurledViewBase.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PhotoBeautify/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PhotoBeautify/ja.lproj/InfoPlist.strings" isTestSource="false" />

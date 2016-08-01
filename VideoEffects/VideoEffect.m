@@ -178,8 +178,9 @@
 // Add effect
 - (BOOL)buildVideoEffectsToMP4:(NSString *)exportVideoFile inputVideoFile:(NSString *)inputVideoFile photos:(NSMutableArray*)photos  highestQuality:(BOOL)highestQuality
 {
-    CGFloat videoWidth = 320;
-    CGFloat videoHeight =320;
+    CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
+    CGFloat videoWidth = screenWidth;
+    CGFloat videoHeight =screenWidth;
     CGFloat start = [[NSDate date] timeIntervalSince1970];
     // 1.
     if (isStringEmpty(inputVideoFile) || isStringEmpty(exportVideoFile) || (!photos || [photos count]<1))
@@ -852,10 +853,10 @@
     unlink([exportVideoFile UTF8String]);
     
     //NSString *mp4Quality = AVAssetExportPresetMediumQuality; //AVAssetExportPresetPassthrough
-    NSString *mp4Quality = AVAssetExportPresetLowQuality;
+    NSString *mp4Quality = AVAssetExportPresetHighestQuality;
 //    if (highestQuality)
 //    {
-//        mp4Quality = AVAssetExportPresetHighestQuality;
+    mp4Quality = AVAssetExportPresetHighestQuality;
 //    }
     NSString *exportPath = exportVideoFile;
     //exportPath = [exportPath stringByAppendingString:@".mov"];
